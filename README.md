@@ -1,6 +1,6 @@
 # Stacked
 Stacked is a datapack library that allows you to schedule functions for future ticks without them forgetting context (Spesifically the entity running the function and positional data)
-This was made in an afternoon so forgive if its not the best thing ever to exist but it still works well and won't cause much lag under most circumstances. (Put 1000 functions on the stack in 1 tick and you might notice it but like why would you do that bruh)
+This was made in an afternoon so forgive if its not the best thing ever to exist but it still works well and won't cause much lag under most circumstances.
 
 # How to schedule a function
 To add a function to the stack you have to call the `stacked:assemble` function with the following arguments set.
