@@ -1,0 +1,1 @@
+$data modify storage stacked:stack_tick_$(time) stack append from storage stacked:generic building_event
