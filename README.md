@@ -1,5 +1,5 @@
 # Stacked
-Stacked is a datapack library that allows you to schedule functions for future ticks without them forgetting context. (Spesifically the entity running the function and positional data)f
+Stacked is a datapack library that allows you to schedule functions for future ticks without them forgetting context. (Spesifically the entity running the function and positional data)
 This was made in an afternoon so forgive if its not the best thing ever to exist but it still works well and won't cause much lag under most circumstances.
 
 # How to schedule a function
