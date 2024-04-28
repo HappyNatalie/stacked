@@ -6,7 +6,9 @@ This was made in an afternoon so forgive if its not the best thing ever to exist
 To add a function to the stack you have to call the `stacked:assemble` function with the following arguments set.
 
 > save_entity : <0/1> (If the stack remembers what entity is execting the command. If the context entity no longer exists when the stack attempts to execute the function this will fail to execute. This uses a score based system via the stacked.entity_id score so refrain from interfeiring with it in any way.)
+
 > function : <string> (This is the function the stack will attempt to execute with the context it remembers.)
+
 > delay : <int> (The delay in ticks before the function is executed. Do not set this to any number less than 1. Doing so will not break the game but it will not work and will result in data being stored that will never be used or cleared.)
 
 Note that all functions on the stack remember position and rotation by defualt.
