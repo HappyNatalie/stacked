@@ -15,8 +15,7 @@ Note that all functions on the stack remember position and rotation by defualt.
 
 > Example of using the datapack
 ````mcfunction stacked_user:example
-data merge storage stacked:test {save_entity:1,function:"stacked:test",delay:32}
-function stacked:assemble with storage stacked:test
+function stacked:assemble {save_entity:1,function:"stacked:test",delay:32}
 ````
 Note that for the process of saving dimensions custom dimensions are not supported by default. In order to add support for your custom dimensions just do the following.
 > Create a function that tests if you are in the dimension.
