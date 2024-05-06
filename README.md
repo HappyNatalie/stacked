@@ -17,6 +17,7 @@ Note that all functions on the stack remember position and rotation by defualt.
 ````mcfunction stacked_user:example
 function stacked:assemble {save_entity:1,function:"stacked:test",delay:32}
 ````
+> In this example the datapack will run the function stacked:test in 32 ticks and will remember what entity used it
 Note that for the process of saving dimensions custom dimensions are not supported by default. In order to add support for your custom dimensions just do the following.
 > Create a function that tests if you are in the dimension.
 ````mcfunction
