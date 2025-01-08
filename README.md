@@ -15,7 +15,7 @@ Note that all functions on the stack remember position and rotation by defualt.
 
 > Example of using the datapack
 ````mcfunction stacked_user:example
-function stacked:assemble {save_entity:1,function:"stacked:test",delay:32}
+function stacked_user:assemble {save_entity:1,function:"stacked:test",delay:32}
 ````
 > In this example the datapack will run the function stacked:test in 32 ticks and will remember what entity used it
 
